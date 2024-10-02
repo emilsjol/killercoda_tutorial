@@ -7,10 +7,10 @@
     },
     "steps": [
       {
-        "text": "step1.md"
-      }
-      {
         "text": "background.md"
+      },
+      {
+        "text": "step1.md"
       }
     ]
   },
