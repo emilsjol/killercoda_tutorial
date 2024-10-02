@@ -10,7 +10,8 @@
         "text": "background.md"
       },
       {
-        "text": "/step1/step1.md"
+        "text": "/step1/step1.md",
+        "image": "/step1/bandit_logo.png"
       }
     ]
   },
