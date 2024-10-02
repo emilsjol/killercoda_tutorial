@@ -1,6 +1,6 @@
 {
-  "title": "Code Actions",
-  "description": "Let users copy or exec code blocks",
+  "title": "Bandit tutorial",
+  "description": "Show how to use Bandit to screen Python code for security issues",
   "details": {
     "intro": {
       "text": "intro.md"
