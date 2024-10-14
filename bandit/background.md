@@ -2,13 +2,13 @@
 
 
 # Background
-<!-- Raccoon video easter egg -->
-[![Raccoon video easter egg](./bandit_logo.png)](https://www.youtube.com/watch?v=rfbb4yRBH64)
+<!-- Raccoon video easter egg-->
+[![Raccoon video easter egg](./assets/bandit_logo.png)](https://www.youtube.com/watch?v=rfbb4yRBH64)
 
 ## What is Bandit?
 Bandit is a security focused static analysis tool for identifying common vulnerabilities in Python projects. It achieves this by scanning Python source code files for security flaws that could be exploited if deployed in production. These flaws can be, for example, hardcoded secrets that can lead to unauthorized access (passwords, API keys, etc.), use of unsecure functions, risk of injection attacks, usage of weak cryptographic algorthims, etc.
 
-<img src="./python_ast.png" width="800px">
+<img src="./assets/python_ast.png" width="800px">
 
 The security scanning is performed through a scan of the abstract syntax tree of the Python code, matching it against a set of predefined rules. Bandit also comes with a set of built-in tests for common vulnerabilities, and lets users write their own custom tests relevant to their own specific projects.
 

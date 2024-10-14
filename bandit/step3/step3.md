@@ -1,8 +1,5 @@
-
-<img src="../false_positive.jpg">
-
 # False Positive: SQL Injection
-Now, we will showcase an example where Bandit detects a false positive.
+In this section, we will showcase an example where Bandit detects a false positive.
 
 In this example, we have prepared a file with an SQL query that could seem vulnerable to SQL injections by Bandit, as the query reads data from a variable. 
 
