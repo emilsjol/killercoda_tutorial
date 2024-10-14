@@ -7,14 +7,19 @@
     },
     "steps": [
       {
+        "title": "Background",
         "text": "background.md"
       },
       {
-        "text": "/step1/step1.md"
+        "title": "Installation",
+        "text": "installation.md",
+        "verify": "verify_install.sh"
       },
       {
-        "text": "installation.md"
+        "title": "Basic usage",
+        "text": "/step1/step1.md"
       }
+      
     ]
   },
   "backend": {
