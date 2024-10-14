@@ -1,3 +1,4 @@
+# Basic usage
 To run Bandit, we first need some Python code to perform security linting on
 
 Create a file with:

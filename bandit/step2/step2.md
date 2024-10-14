@@ -1,11 +1,10 @@
-Now, we will showcase an example where Bandit detects an issue.
+# Hardcoded secrets
+In this step, we have an example where Bandit detects a simple vulnerability in our code.
 
-Bandit has a lot of different things it can check for. For example it can check for non-suitable imports commonly used for malicious purposes, such as Pickle.
+We have prepared a file called `bad_secrets.py`{{}}.
 
-We have prepared a file called `bad_imports.py`{{}}
+Run Bandit against that file by executing `bandit bad_secrets.py`{{exec}}.
 
-Run Bandit against that file with `bandit bad_imports.py`{{exec}}.
+As you can see, it flags for exposed sensitive information (harcoded password string). This is one of the ways that Bandit can help you minimize leakage of sensitive information in your projects.
 
-Take note of any issues you find.
-
-This is an example of how Bandit can detect issues with a file.
+In the next step, we will see another type of vulnerability discoverable by Bandit, and demonstrate how to handle false positives discovered by the tool.

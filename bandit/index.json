@@ -20,13 +20,19 @@
         "text": "/step1/step1.md"
       },
       {
-        "title": "Example of an issue",
+        "title": "Revealed secrets example",
         "text": "/step2/step2.md"
-      },       {
-        "title": "More advanced example",
-        "text": "/step3/step3.md"
+      },
+      {
+        "title": "SQL example",
+        "text": "/step3/step3.md",
+        "verify": "/step3/verify.sh"
+      },
+      {
+      "title": "Directory scan",
+      "text": "/step4/step4.md",
+      "verify": "/step4/verify.sh"
       }
-      
     ]
   },
   "backend": {

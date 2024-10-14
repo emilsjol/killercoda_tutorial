@@ -1,11 +1,15 @@
-Now, we will showcase an example where Bandit detects an issue.
 
-Bandit has a lot of different things it can check for. For example it can check for non-suitable imports commonly used for malicious purposes, such as Pickle.
+<img src="../false_positive.jpg">
 
-We have prepared a file called bad_imports.py
+# False Positive: SQL Injection
+Now, we will showcase an example where Bandit detects a false positive.
 
-Run Bandit against that file with ´bandit bad_imports.py´{{exec}}.
+In this example, we have prepared a file with an SQL query that could seem vulnerable to SQL injections by Bandit, as the query reads data from a variable. 
 
-Take note of any issues you find.
+This can be observed in `bad_sql.py`{{}}
 
-This is an example of how Bandit can detect issues with a file.
+Run Bandit against that file with `bandit bad_sql.py`{{exec}}.
+
+As you can see, Bandit flags for a possible SQL injection vector. However, as the variable is hard coded and we do not query for user input in our program, we can confidently mark this as a non-issue in regards to security. We can do this by adding a ```# nosec``` comment, telling Bandit to ignore this line in its scan for security vulnerabilities.
+
+Open `bad_sql.py`{{}} with vim or any other editor, and add this comment at the end for the query at line 8. Then, run the program again an observe the output of Bandit.
