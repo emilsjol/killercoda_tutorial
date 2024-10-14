@@ -1,5 +1,5 @@
 
-<img src="../false_positive.jpg">
+<img src="./false_positive.jpg">
 
 # False Positive: SQL Injection
 Now, we will showcase an example where Bandit detects a false positive.

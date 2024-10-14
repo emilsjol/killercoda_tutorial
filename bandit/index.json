@@ -33,7 +33,12 @@
       "text": "/step4/step4.md",
       "verify": "/step4/verify.sh"
       }
-    ]
+    ],
+    "assets": {
+      "client": [
+        {"file": "bad_secrets.py", "target":"/root/bad_secrets.py", "chmod": "+x"}
+      ]
+    }
   },
   "backend": {
     "imageid": "ubuntu"
