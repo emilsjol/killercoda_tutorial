@@ -31,15 +31,13 @@
       },
       {
       "title": "Directory scan",
-      "text": "/step4/step4.md",
-      "verify": "/step4/verify.sh"
+      "text": "/step4/step4.md"
+      },
+      {
+      "title": "Outro",
+      "text": "outro.md"
       }
-    ],
-    "assets": {
-      "client": [
-        {"file": "bad_secrets.py", "target":"/root/bad_secrets.py", "chmod": "+x"}
-      ]
-    }
+    ]
   },
   "backend": {
     "imageid": "ubuntu"
