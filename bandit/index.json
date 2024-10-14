@@ -17,7 +17,8 @@
       },
       {
         "title": "Basic usage",
-        "text": "/step1/step1.md"
+        "text": "/step1/step1.md",
+        "foreground": "/step1/foreground.sh"
       },
       {
         "title": "Revealed secrets example",
