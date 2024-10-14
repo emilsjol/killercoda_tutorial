@@ -18,6 +18,13 @@
       {
         "title": "Basic usage",
         "text": "/step1/step1.md"
+      },
+      {
+        "title": "Example of an issue",
+        "text": "/step2/step2.md"
+      },       {
+        "title": "More advanced example",
+        "text": "/step3/step3.md"
       }
       
     ]
