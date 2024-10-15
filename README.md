@@ -1,7 +1,2 @@
-# Killercoda Scenario Examples
-
-See these in action here: https://killercoda.com/examples
-
-Documentation: https://killercoda.com/creators
-
-For grouping scenarios into courses check https://github.com/killercoda/scenario-examples-courses
+# Bandit Killercoda Tutorial
+Our repository for out Python Bandit exectuable tutorial in the DD2482 DevOps course at KTH.
