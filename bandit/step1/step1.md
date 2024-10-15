@@ -9,6 +9,6 @@ Then fill it with some python code:
 
 Now, let's run Bandit on the code and hopefully find no vulnerabilities.
 
-To run Bandit, run `bandit`{{}} followed by the file name, like this: `bandit code.py`{{exec}}.
+To run Bandit, run `bandit`{{}} followed by the file name, like this: `bandit code.py`{{exec}}
 
 If everything worked correctly, you should see output from Bandit noting that no issues were discovered. Then, you're ready to go to the next parts of the tutorial, where we will showcase some more features and scenarios! :)
