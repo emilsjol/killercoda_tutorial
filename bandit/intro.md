@@ -1,8 +1,8 @@
 
 <br>
 
-# Introduction
-Hi and welcome to our introduction to the Bandit security linting tool in Python. This is an executable tutorial written using Killercoda. 
+
+Hi and welcome to our introduction to the Bandit security linting tool in Python. This is an executable tutorial written using Killercoda, that introduces various features with the Bandit tool. It also includes a background explaining the relevance of Bandit in a DevOps context.
 
 # Intended learning outcomes
 - **Understand Bandit**: Learners will be able to explain what Bandit is, why it is used, and its role in identifying security vulnerabilities in Python code.
@@ -11,10 +11,10 @@ Hi and welcome to our introduction to the Bandit security linting tool in Python
 
 # Overview
 1. Introduction
-2. Background
-3. Installation
+2. Background and Relevance
+3. Installation and Configuration
 4. Basic Usage: No Vulnerabilities
-5. Simple Vulnerability: Hardcoded Secrets
-6. False Positive: SQL Injection
-7. Directory Scanning
+5. Secrets and Severity
+6. False Positives
+7. Directory Scanning and Output Formatting
 8. Outro

@@ -1,6 +1,8 @@
-Congratulations, you have now learned how to use Bandit to perform security linting on your Python files! 
+Congratulations, you have now learned how to use Bandit to perform security linting on your Python files!
 
-Best of luck on your continued developer and DevOps journey! :)
+We hope you found this tutorial useful, and we wish you the best of luck on your continued developer and DevOps journey! :)
+
+// Isak and Emil
 
 ```
 / )( \(  __)(  )  (  )    (    \ /  \ (  ( \(  __)  / \  
@@ -24,3 +26,5 @@ Best of luck on your continued developer and DevOps journey! :)
 ⠀⠀⠀⠀⠈⠋⠘⠻⠋⢿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠛⠛⠁⠁⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
+
+P.S: did you find the hidden raccoon video?

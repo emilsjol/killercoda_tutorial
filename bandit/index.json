@@ -11,7 +11,7 @@
         "text": "background.md"
       },
       {
-        "title": "Installation",
+        "title": "Installation and configuration",
         "text": "installation.md",
         "verify": "verify_install.sh"
       },
@@ -21,11 +21,11 @@
         "foreground": "/step1/foreground.sh"
       },
       {
-        "title": "Revealed secrets example",
+        "title": "Secrets and severity",
         "text": "/step2/step2.md"
       },
       {
-        "title": "SQL example",
+        "title": "False positives",
         "text": "/step3/step3.md",
         "verify": "/step3/verify.sh"
       },
