@@ -3,7 +3,7 @@ In this section, we will showcase an example where Bandit detects a false positi
 
 In this example, we have prepared a file with an SQL query that could seem vulnerable to SQL injections by Bandit, as the query reads data from a variable.
 
-This can be observed in `bad_sql.py`{{}}
+This can be observed in `bad_sql.py`{{}}. Please view the file by running `cat bad_sql.py`{{exec}}
 
 Run Bandit against that file with `bandit bad_sql.py`{{exec}}.
 
@@ -14,5 +14,8 @@ Open `bad_sql.py`{{}} with vim or any other editor, and add this comment at the 
     query = "SELECT * FROM car_models WHERE automaker = '%s'" % brand # nosec
 ```
 
+Then, run Bandit again against that file with `bandit bad_sql.py`{{exec}}, and observe the new output.
 
-If you have implemented your changes correctly, Bandit should not flag the SQL query as an issue anymore!
+If you have implemented your changes correctly, Bandit should not flag the SQL query as an issue anymore! 
+
+You will be able to go to the next step of the tutorial when you have successfully implemented this change.

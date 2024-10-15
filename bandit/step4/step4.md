@@ -10,4 +10,6 @@ Try it on the `test-directory`{{}} we have provided by running
 
 When analysing multiple files, especially in larger projects, the terminal output is likely to be cluttered if many files are scanned and multiple issues observed. Thankfully, Bandit offers different output formatting options for creating analysis reports. There are multiple formats supported, such as JSON, CSV, HTML, XML, YAML, etc.
 
-For example, to output the analysis as a JSON document, use the options `-o output_file` and `--format json`. You can try this by executing the following command: `bandit -r ./test-directory -o report.json --format json`{{exec}} and then viewing the report with ``cat report.json``{{exec}}.
+For example, to output the analysis as a JSON document, use the options `-o output_file` and `--format json`. You can try this by executing the following command: `bandit -r ./test-directory -o report.json --format json`{{exec}} and then viewing the report with `cat report.json`{{exec}}. Feel free to try out any other of the suggested formatting options as well!
+
+Bandit also supports custom output formatting, but that is out of scope for this tutorial.
